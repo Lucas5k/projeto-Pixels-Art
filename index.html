@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pixels Art</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1 id="title" class="title-palettes">Paleta de Cores</h1>
+  <section class="container-palettes">
+    <section id="color-palette" class="palettes">
+      <h2 id="black" class="color selected" style="background-color: black;"></h2>
+      <h2 id="red" class="color" style="background-color: red;"></h2>
+      <h2 id="blue" class="color" style="background-color: blue;"></h2>
+      <h2 id="green" class="color" style="background-color: green;"></h2>
+    </section>
+  </section>
+  <section class="container-button-input-button">
+    <section class="wrapper-button-input-button">
+      <button id="clear-board">Limpar</button>
+      <input type="number" id="board-size" min="1" />
+      <button id="generate-board">VQV</button>
+    </section>
+  </section>
+  <section class="container">
+    <section class="container-pixel-board">
+      <section id="id-pixel-board" class="wrapper-pixel-board">
+      </section>
+    </section>
+  </section>
+  <script src="script.js"></script>
+</body>
+</html>
