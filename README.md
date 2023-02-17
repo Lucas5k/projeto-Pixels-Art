@@ -1,7 +1,7 @@
 # projeto-Pixels-Art
 
 ## :memo: Descrição
-<p>Esse foi o meu quinto projeto no módulo de Ciência da Computação. Neste projeto eu implementei um programa que simule um algoritmo de indexação de documentos similar ao do Google. O programa capaz de identificar ocorrências de termos em arquivos TXT. Reforçando também conceitos como: Manipular Pilhas, Manipular Deque, Manipular Nó & Listas Ligadas e, Manipular Listas Duplamente Ligadas</p>
+<p>Esse foi o meu quarto projeto no módulo de Fundamentos. Eu implementei uma página web que contém uma paleta de cores funcional que poderá ser utilizada para criar desenhos em pixels.</p>
 
 ## :books: Funcionalidades
 <ol><b>Funcionalidade 1</b>: Escolher a cor desejada.</ol>
