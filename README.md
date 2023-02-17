@@ -18,16 +18,10 @@
 Para rodar o repositório é necessário clonar o mesmo, dar o seguinte comando para iniciar o projeto:
 ```
 - Clone o repositório
-git clone git@github.com:Lucas5k/Projeto-TING.git
+git clone git@github.com:Lucas5k/projeto-Pixels-Art.git
 
 - Entre no arquivo do projeto
-cd Projeto-TING
-
-- Crie o ambiente virtual para o projeto
-python3 -m venv .venv && source .venv/bin/activate
-
-- Instale as dependências
-python3 -m pip install -r dev-requirements.txt
+cd projeto-Pixels-Art
 
 Use a vontade!
 
