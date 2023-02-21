@@ -61,3 +61,29 @@ body {
   display: flex;
   justify-content: center;
 }
+
+section a {
+  color: white;
+  padding: 15px 20px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 10px;
+  margin-right: 7px;
+  margin-left: 15px;
+}
+
+a:hover {
+  background-color: #002ead;
+  transition: 0.7s;
+}
+
+.container-header {
+  background-color: #27ae60;
+  height: 100px;
+  width: 100%;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 80px;
+}

@@ -33,10 +33,10 @@ const eventSelectedColor = () => {
 
 const eventSelectedColorInBoard = async () => {
   const getPixelId = document.getElementById('id-pixel-board');
+
   const getPixelBoard = ({ target }) => {
-    const param = target;
     const getSelected = document.querySelector('.selected');
-    param.style.backgroundColor = getSelected.style.backgroundColor;
+    target.style.backgroundColor = getSelected.style.backgroundColor;
   };
   getPixelId.addEventListener('click', getPixelBoard);
 };
@@ -54,22 +54,29 @@ const clearBoardPixel = () => {
 };
 
 const genetareteBoard = () => {
+  const getStyle = document.querySelector('.container-pixel-board');
   let valueInput = document.querySelector('#board-size').value;
   if (valueInput === '') window.alert('Board inválido!');
-  if (valueInput < 5) {
-    valueInput = 5;
+  if (valueInput >= 12) {
+    valueInput = 12;
+    getStyle.style.width = '1100px';
   } else if (valueInput > 50) {
+    getStyle.style.width = '2000px';
     valueInput = 50;
   }
+
   for (let i = 0; i < valueInput; i += 1) {
     for (let j = 0; j < valueInput; j += 1) {
       const getParentElement = document.getElementById('id-pixel-board');
       const createElement = document.createElement('ol');
       createElement.className = 'pixel';
       createElement.id = 'pixel-board';
+      
       getParentElement.appendChild(createElement);
     }
   }
+  if (valueInput === 12) 
+  getStyle.style.height = '190vh';
 };
 
 const buttonGenerate = document.getElementById('generate-board');
