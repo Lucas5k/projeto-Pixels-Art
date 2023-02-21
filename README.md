@@ -26,6 +26,11 @@ cd projeto-Pixels-Art
 Use a vontade!
 
 ```
+
+## Rodando na Web:
+
+<a href="https://projeto-pixels-art-tan.vercel.app/">Clique aqui</a><p>para ver a versão final do nosso projeto no seu navegador.</p>
+
 <!-- ## :soon: Implementação futura
 * O que será implementado na próxima sprint? -->
 
